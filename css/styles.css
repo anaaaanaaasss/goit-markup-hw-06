@@ -999,6 +999,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
+    margin: 0 auto;
 }
 
 .footer-subscribe-button:hover,
@@ -1009,5 +1010,59 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .footer-subscribe-icon {
     margin-left: 16px;
     fill: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer-container {
+        width: 584px;
+    }
+
+    .footer-all {
+        flex-direction: row;
+        gap: 24px;
+        align-items: first baseline;
+    }
+
+    .footer-left {
+        max-width: 264px;
+
+    }
+
+    .footer-logo,
+    .footer-list-title,
+    .footer-subscribe-title {
+        text-align: left;
+    }
+
+    .footer-subscribe-button {
+        margin: 0;
+    }
+
+    .footer-subscribe-form {
+        display: flex;
+        gap: 24px;
+    }
+
+    .footer-subscribe-input {
+        width: 264px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .footer {
+        padding: 100px 0;
+    }
+
+    .footer-container {
+        width: 100%;
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    .footer-all {
+        gap: 120px;
+    }
 }
 /* #endregion Footer */
