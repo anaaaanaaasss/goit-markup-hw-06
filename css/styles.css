@@ -1,4 +1,4 @@
-body { 
+body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
     color: #434455;
@@ -29,18 +29,25 @@ a {
     overflow: hidden;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
 .white {
-    color:#f4f4fd;
+    color: #f4f4fd;
 }
 
 .button {
@@ -77,7 +84,7 @@ img {
     align-items: center;
 }
 
-.logo-header  {
+.logo-header {
     margin-right: 76px;
 }
 
@@ -101,7 +108,7 @@ img {
     gap: 40px;
 }
 
-.nav-item-link { 
+.nav-item-link {
     padding: 24px 0;
     display: block;
     font-weight: 500;
@@ -112,7 +119,7 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-item-link:hover, 
+.nav-item-link:hover,
 .nav-item-link:focus {
     color: #404bbf;
 }
@@ -141,7 +148,7 @@ img {
 
 
 .address {
-    font-style: normal;   
+    font-style: normal;
     margin-left: auto;
 }
 
@@ -163,7 +170,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; 
+    color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -340,10 +347,10 @@ img {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 
 .team-card:hover,
@@ -370,7 +377,7 @@ img {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: #fff;
+    background: #fff;
 
 }
 
@@ -389,17 +396,18 @@ img {
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-    
+}
+
 .svg {
     fill: #f4f4fd;
-        }
+}
+
 .team-socmedia-list-link:hover,
 .team-socmedia-list-link:focus {
     background-color: #404bbf;
     transform: translateY(0%);
-    
-        }
+
+}
 
 
 /* #endregion Team */
@@ -437,14 +445,13 @@ img {
 }
 
 .portfolio-list-items:hover,
-.portfolio-list-items:focus
-{
+.portfolio-list-items:focus {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-                0 1px 1px 0 rgba(46, 47, 66, 0.16),
-                0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
@@ -484,7 +491,8 @@ img {
 .portfolio-list-items:hover .overlay,
 .portfolio-list-items:focus-within .overlay {
     opacity: 1;
-    transform: translateY(0); }
+    transform: translateY(0);
+}
 
 .portfolio-list-title {
     font-weight: 500;
@@ -527,7 +535,7 @@ img {
 .footer-container {
     display: flex;
     align-items: baseline;
-    
+
 }
 
 .footer-left,
@@ -538,18 +546,18 @@ img {
 }
 
 .footer-center {
-margin-right: 80px;
+    margin-right: 80px;
 }
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -580,7 +588,7 @@ margin-right: 80px;
 .footer-list {
     display: flex;
     gap: 16px;
-} 
+}
 
 .footer-list-item {
     width: 40px;
@@ -597,7 +605,7 @@ margin-right: 80px;
     justify-content: center;
     fill: #fff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
+}
 
 .socmedia-list-link:hover,
 .socmedia-list-link:focus {
@@ -866,7 +874,7 @@ margin-right: 80px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    
+
 }
 
 .modal-checkbox-span {
@@ -924,4 +932,3 @@ input[type="checkbox"]:checked+.modal-checkbox-label .modal-checkbox-span {
 }
 
 /* #endregion Modal */
-
