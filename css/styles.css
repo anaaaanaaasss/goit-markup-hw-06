@@ -11,7 +11,7 @@ body {
 a {
     text-decoration: none;
 }
- 
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -609,8 +609,6 @@ display: block;
         padding: 96px 0;
 }
 
-.team-container {}
-
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -934,15 +932,12 @@ display: flex;
         width: 40px;
         height: 40px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
     .socmedia-list-link:hover,
     .socmedia-list-link:focus {
         background-color: #31d0aa;
     }
 
 
-.footer-subscribe-container {}
 
 .footer-subscribe-title {
     font-weight: 500;
@@ -952,10 +947,6 @@ letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
 text-align: center;
-}
-
-.footer-subscribe-form {
-
 }
 
 .footer-subscribe-label {
@@ -1026,7 +1017,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     .footer-left {
         max-width: 264px;
-
     }
 
     .footer-logo,
@@ -1066,3 +1056,50 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
 }
 /* #endregion Footer */
+
+
+/* #region Modal */
+
+.modal-backdrop {}
+
+.is-open {}
+
+.modal-window {}
+
+.modal-close-btn {}
+
+.modal-close-icon {}
+
+.modal-title {}
+
+.modal-form {}
+
+.modal-field {}
+
+.modal-label {}
+
+.modal-input-wrapper {}
+
+.modal-input {}
+
+.modal-input-icon {}
+
+.comment-field {}
+
+.modal-textarea {}
+
+.modal-checkbox-wrapper {}
+
+.visually-hidden {}
+
+.modal-checkbox-label {}
+
+.modal-checkbox-span {}
+
+.modal-checkbox-icon {}
+
+.modal-policy-link {}
+
+.modal-submit-btn {}
+
+/* #endregion Modal */ 
